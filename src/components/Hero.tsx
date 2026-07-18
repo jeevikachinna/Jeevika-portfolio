@@ -1,9 +1,8 @@
 import { Mail, ArrowDown, FileText, Download } from 'lucide-react';
 import { personalInfo } from '../data';
 import { ThemeType, themes } from '../lib/theme';
-import profilePic from 
 
-const profilePic = '/src//assets/images/profile_placeholder_1784311152877.jpg';
+import profilePic from 'src/assets/images/profile_placeholder_1784311152877.jpg';
 
 interface HeroProps {
   theme: ThemeType;
