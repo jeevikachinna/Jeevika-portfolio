@@ -73,7 +73,7 @@ export default function Hero({ theme, onOpenResume, onDownloadResume }: HeroProp
   const dotColor = theme === 'chalk' ? 'bg-blue-600' : theme === 'cosmic' ? 'bg-indigo-500' : 'bg-emerald-400';
 
   return (
-     <section
+    <section
       id="home"
       className={`relative min-h-screen pt-28 pb-16 flex items-center overflow-hidden transition-all duration-300 ${sectionBg}`}
     >
