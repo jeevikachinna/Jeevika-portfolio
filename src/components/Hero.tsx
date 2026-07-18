@@ -1,8 +1,7 @@
 import { Mail, ArrowDown, FileText, Download } from 'lucide-react';
 import { personalInfo } from '../data';
 import { ThemeType, themes } from '../lib/theme';
-
-import profilePic from 'src/assets/images/profile_placeholder_1784311152877.jpg';
+import profilePic from '../assets/images/profile_placeholder_1784311152877.jpg';
 
 interface HeroProps {
   theme: ThemeType;
@@ -74,7 +73,7 @@ export default function Hero({ theme, onOpenResume, onDownloadResume }: HeroProp
   const dotColor = theme === 'chalk' ? 'bg-blue-600' : theme === 'cosmic' ? 'bg-indigo-500' : 'bg-emerald-400';
 
   return (
-    <section
+     <section
       id="home"
       className={`relative min-h-screen pt-28 pb-16 flex items-center overflow-hidden transition-all duration-300 ${sectionBg}`}
     >
